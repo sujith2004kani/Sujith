@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+   int x;  //Creating a memory location
+   cout<<"Enter a number to check: ";  //Asking user to enter a value
+   cin>>x; //Storing the value
+   if(x%2==0)  //Testing for answer
+      cout<<"\nEven number";
+   else
+      cout<<"\nOdd number";
+   return 0;  //Return value   
+}
